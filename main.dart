@@ -8,7 +8,6 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   void initState() {
     _loadData();
-    super.initState();
   }
 
   _loadData() async {
