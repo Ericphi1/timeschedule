@@ -12,7 +12,7 @@ class _AppState extends State<App> {
 
   _loadData() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    if(prefs.getString("todo") != null){ 
+    if(prefs.getString("time") != null){ 
     time = jsonDecode(prefs.getString("time"));
   }}
   Map<String, dynamic> time = {};
